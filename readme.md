@@ -44,7 +44,7 @@ Hetrogenous group of interconnected computers, via ethernet.
 
 __Fat Tree:__
 
-![fat tree](fat_tree.svg)
+![fat tree](fat_tree.png)
 
 A tree that doubles in throughput each level you move up.
 
@@ -198,21 +198,21 @@ Note: the bottom of the rectangle is flush with the x-axis.
 
 Left Sum: align the upper left corner of the rectangle with a point on the curve.
 
-![riemann left](riemann_left.svg)
+![riemann left](riemann_left.png)
 
 Right Sum: align the upper right corner of the rectangle with a point on the curve.
 
-![riemann right](riemann_right.svg)
+![riemann right](riemann_right.png)
 
 Middle Sum: align the midpoint of the top side of the rectangle with a point on the curve.
 
-![riemann middle](riemann_middle.svg)
+![riemann middle](riemann_middle.png)
 
 __Trapezoidal Rule:__
 
 Like the rectangles of the Riemann sum, the Trapezoidal rule is a summation of an arbitrary number of trapezoids under a curve. The left and right sides of the top of the trapezoid are points on the curve.
 
-![trap rule](trap_rule.svg)
+![trap rule](trap_rule.png)
 
 ## MPI Programming
 
@@ -591,7 +591,7 @@ void mult_matrix(double** A, double** B, double** C, int m, int n, int y)
 
 This may be easier to understand if you check out this super rad picture:
 
-![sweet matrix multiplication yo](mult_matrix.svg)
+![sweet matrix multiplication yo](mult_matrix.png)
 
 Serial: `O(n^3)`
 
